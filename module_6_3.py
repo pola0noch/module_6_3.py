@@ -6,8 +6,6 @@ class Horse:
         self.sound = 'Frrr'
         super().__init__()
 
-
-
     def run(self, dx):
         self.x_distance += dx
 
